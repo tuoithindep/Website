@@ -1,0 +1,45 @@
+#form_admin{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    display: block;
+    background-image: url('../../imgs/aa.jpg');
+    background-size: cover;
+}
+
+.form_groupWrap{
+    margin-top: 220px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.form_control{
+    margin: 5px 0;
+    outline: none;
+    display: block;
+}
+
+.btn_submit{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn_submit:hover{
+    cursor: pointer;
+}
+
+.form_group.invalid .form_control {
+    border-color: #f33a58 !important;
+}
+
+.form_group.invalid .form_message {
+    color: #f33a58 !important;
+    display: block;
+    font-size: 13px;
+}
+
+.notify_container{
+    box-shadow: none;
+}

@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^home?$ index.php
+RewriteRule ^admin/home?$ admin/index.php
+RewriteRule ^admin/login?$ admin/login.php
